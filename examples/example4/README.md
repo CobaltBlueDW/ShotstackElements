@@ -46,4 +46,4 @@ eval: can handle basic arithmetic expressions using a mustache lambda called "ca
 Notice how you can use variables in your calculations.  This is a powerful tool for templating, as you can describe things in your partial composition templates relative to other values.  If, for example, you were describing an animation with 3 stages, you could describe all of the start times as duration off-sets from an initial animation start time, and everywhere you used that composite animation, it would just work without having to manually calculate the start time of each asset in the animation.
 
 
-[Back](https://github.com/CobaltBlueDW/ShotstackElements)
+[Back](https://github.com/CobaltBlueDW/ShotstackElements) | [Next](https://github.com/CobaltBlueDW/ShotstackElements/tree/main/examples/example5)

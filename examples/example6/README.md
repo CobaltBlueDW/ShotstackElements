@@ -52,3 +52,6 @@ Example:
 }
 
 Note that the conversion needs to know if the value is a vertical "X" value or horizontal "Y" value, provided after the initial unit in the lambda name "G"(for Grid), "X"(for horizontal), "to", "R"(for Ratio).  This vertical and horizontal distinction isn't needed with implicit conversion, as it's derived from the context, but the lambdas need this specificity as they don't always have access to such clear context.  See how the CSS margin-top property uses the GYtoP converter as margin-top is a vertical displacement.
+
+
+[Back](https://github.com/CobaltBlueDW/ShotstackElements)

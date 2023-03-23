@@ -2,7 +2,7 @@
 In the last example, merging our two scenes only worked because the "start" times in each scene template had absolute values that lined-up properly (e.g. scene1.json had start values of 1, and scene2.json had start values of 10), but that's not very reusable.  If we really want our composition and scene templates to be properly re-usable, they need a strong variable injection system.
 
 # Solution
-Introducing "eval:", a powerful feature of Shotstack Elements.  Any property value that starts with "eval:" will be evaluated and rendered.
+Introducing the "eval:" directive; a powerful feature of Shotstack Elements.  Any property value that starts with "eval:" will be evaluated and rendered.
 
 # Mustache Templating
 In an eval: you can use mustache templating (full docs: https://mustache.github.io/mustache.5.html).  This includes but is not limited to the use of variables.  Which variables you have access to at any given location will be describe in a later section covering scopes.  Here's a quick example of it in action.
@@ -59,3 +59,7 @@ On non-mobile, the render would be:
     }
     ...
 }
+
+
+
+[Back](https://github.com/CobaltBlueDW/ShotstackElements)

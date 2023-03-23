@@ -1,0 +1,62 @@
+{ "elements":[
+
+    {
+        "asset": {
+            "type": "image",
+            "src": "https://shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com/7q5g79h2g8/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl/source.png"
+        },
+        "transition": {
+            "in": "fade",
+            "out": "fade"
+        },
+        "fit": "crop",
+        "z": 100,
+        "scale": 0.5,
+        "start": 10,
+        "length": 10,
+        "position": "center"
+    },
+
+    {
+        "asset": {
+            "type": "image",
+            "src": "https://shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com/7q5g79h2g8/zzyalkfr-0p03-031p-iwvj-3ksqjv05wwqm/source.png"
+        },
+        "transition": {
+            "in": "fade",
+            "out": "fade"
+        },
+        "filter": "greyscale",
+        "fit": "crop",
+        "z": 99,
+        "offset": {
+            "x": 0.01,
+            "y": -0.01
+        },
+        "scale": 0.5,
+        "opacity": 0.2,
+        "start": 10,
+        "length": 10
+    },
+
+    {
+        "asset": {
+            "type": "image",
+            "src": "https://shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com/7q5g79h2g8/zzyaljzr-16pb-os1q-k7rw-0pbnzy1pcesr/source.png"
+        },
+        "transition": {
+            "in": "fade",
+            "out": "fade"
+        },
+        "z": -1,
+        "offset": {
+            "x": 0,
+            "y": 0
+        },
+        "position": "center",
+        "scale": 1,
+        "start": 10,
+        "length": 10
+    }
+
+]}

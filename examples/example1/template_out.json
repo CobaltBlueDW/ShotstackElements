@@ -1,0 +1,49 @@
+{
+  "tracks": [
+    {
+      "clips": [
+        {
+          "asset": {
+            "type": "html",
+            "html": "<p>Hello World!</p>",
+            "css": "p { font-weight: bold; color: #ffffff; font-size: 18px; text-align: center; vertical-align: top;}",
+            "width": 350,
+            "height": 120
+          },
+          "start": 1,
+          "length": 10,
+          "position": "bottomLeft",
+          "offset": {
+            "x": 0.01,
+            "y": 0.03
+          },
+          "transition": {
+            "in": "slideRight",
+            "out": "slideLeft"
+          }
+        }
+      ]
+    },
+    {
+      "clips": [
+        {
+          "asset": {
+            "type": "image",
+            "src": "https://templates.shotstack.io/basic/asset/image/overlay/slanted-panel-cyan-highlite.png"
+          },
+          "scale": 0.24,
+          "position": "bottomLeft",
+          "transition": {
+            "in": "slideRight",
+            "out": "slideLeft"
+          },
+          "offset": {
+            "y": 0.1
+          },
+          "start": 0,
+          "length": 11
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+    "output": {
+        "format": "mp4",
+        "resolution": "preview"
+    },
+    "timeline": {
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "4-1"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "6-1"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "1"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "5-2"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "2"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "6-2-2-2-2-1"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "3"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "4-2"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "6-2-2-2-1"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "6-2-2-2-2-2"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "5-1"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "6-2-1"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "6-2-2-1"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

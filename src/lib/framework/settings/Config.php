@@ -12,6 +12,16 @@ class Config implements \src\lib\framework\behaviors\ObjectingInterface {
     public function __construct($valueObj = null) {
         $this->ObjectingTrait_construct($valueObj);
     }
+
+    public function setAll($valueObj){
+        if (is_array($valueObj)) {
+            $valueObj = (object)$valueObj;
+        }
+        
+        foreach($valueObj as $key => $value){
+            $this->data[$key] = $value;
+        }
+    }
     
     public function __isset($name) {
         return isset($this->data[$name]);

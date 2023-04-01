@@ -1,0 +1,24 @@
+{
+    "elements": [
+        {
+            "asset": {
+                "type": "image",
+                "src": "https://shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com/7q5g79h2g8/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl/source.png"
+            },
+            "transition": {
+                "in": "fade",
+                "out": "fade"
+            },
+            "fit": "crop",
+            "scale": "unit: 800g",
+            "start": 1,
+            "length": 12,
+            "z": 10,
+            "offset": {
+                "x": "unit: 800g",
+                "y": "unit: 400p"
+            },
+            "position": "center"
+        }
+    ]
+}

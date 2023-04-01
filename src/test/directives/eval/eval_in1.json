@@ -1,0 +1,27 @@
+{
+    "mobile": false,
+    "portrait": true,
+    "speed": 12,
+    "elements": [
+        {
+            "asset": {
+                "type": "image",
+                "src": "https://shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com/7q5g79h2g8/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl/source.png"
+            },
+            "transition": {
+                "in": "fade",
+                "out": "fade"
+            },
+            "fit": "crop",
+            "scale": "eval: {{#global.mobile}}1.0{{/global.mobile}}{{^global.mobile}}0.5{{/global.mobile}}",
+            "start": 1,
+            "length": "eval: {{scene.speed}}",
+            "z": 10,
+            "offset": {
+                "x": "eval: {{#global.mobile}}0{{/global.mobile}}{{^global.mobile}}0.5{{/global.mobile}}",
+                "y": "eval: {{#global.portrait}}0.5{{/global.portrait}}{{^global.portrait}}0{{/global.portrait}}"
+            },
+            "position": "center"
+        }
+    ]
+}

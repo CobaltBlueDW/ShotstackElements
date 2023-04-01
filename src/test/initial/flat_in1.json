@@ -1,0 +1,123 @@
+{
+    "elements": [
+        {
+            "asset": {
+                "type": "image",
+                "src": "1"
+            },
+            "z": 10
+        },
+        {
+            "asset": {
+                "type": "image",
+                "src": "2"
+            },
+            "z": 9
+        },
+        {
+            "asset": {
+                "type": "image",
+                "src": "3"
+            },
+            "z": 8
+        },
+        {
+            "elements":[
+                {
+                    "asset": {
+                        "type": "image",
+                        "src": "4-1"
+                    },
+                    "z": 11
+                },
+                {
+                    "asset": {
+                        "type": "image",
+                        "src": "4-2"
+                    },
+                    "z": 8
+                }
+            ]
+        },
+        {
+            "elements":{
+                "key1":{
+                    "asset": {
+                        "type": "image",
+                        "src": "5-1"
+                    },
+                    "z": 7
+                },
+                "key2":{
+                    "asset": {
+                        "type": "image",
+                        "src": "5-2"
+                    },
+                    "z": 10
+                }
+            }
+        },
+        {
+            "elements":[
+                {
+                    "asset": {
+                        "type": "image",
+                        "src": "6-1"
+                    },
+                    "z": 11
+                },
+                {
+                    "elements":[
+                        {
+                            "asset": {
+                                "type": "image",
+                                "src": "6-2-1"
+                            },
+                            "z": 6
+                        },
+                        {
+                            "elements":[
+                                {
+                                    "asset": {
+                                        "type": "image",
+                                        "src": "6-2-2-1"
+                                    },
+                                    "z": 5
+                                },
+                                {
+                                    "elements":[
+                                        {
+                                            "asset": {
+                                                "type": "image",
+                                                "src": "6-2-2-2-1"
+                                            },
+                                            "z": 8
+                                        },
+                                        {
+                                            "elements":[
+                                                {
+                                                    "asset": {
+                                                        "type": "image",
+                                                        "src": "6-2-2-2-2-1"
+                                                    },
+                                                    "z": 9
+                                                },
+                                                {
+                                                    "asset": {
+                                                        "type": "image",
+                                                        "src": "6-2-2-2-2-2"
+                                                    },
+                                                    "z": 8
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

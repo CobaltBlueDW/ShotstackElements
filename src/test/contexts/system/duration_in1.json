@@ -1,0 +1,38 @@
+{
+    "start": "calc: {{system.duration}}",
+    "speed": 12,
+    "elements": [
+        {
+            "asset": {
+                "type": "image",
+                "src": "https://shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com/7q5g79h2g8/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl/source.png"
+            },
+            "start": "calc: {{scene.start}}",
+            "length": "calc: {{scene.speed}}",
+            "z": 10
+        },
+        {
+            "start": "calc: {{system.duration}}",
+            "elements":[
+                {
+                    "asset": {
+                        "type": "image",
+                        "src": "https://shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com/7q5g79h2g8/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl/source.png"
+                    },
+                    "start": "calc: {{scene.start}}",
+                    "length": "calc: {{global.speed}}",
+                    "z": 10
+                },
+                {
+                    "asset": {
+                        "type": "image",
+                        "src": "https://shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com/7q5g79h2g8/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl/source.png"
+                    },
+                    "start": "calc: {{scene.start}} + {{global.speed}}",
+                    "length": "calc: {{global.speed}}",
+                    "z": 10
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch app",
+            "type": "php",
+            "request": "launch",
+            "program": "${workspaceFolder}/index.php",
+            "cwd": "${workspaceFolder}",
+            "port": 0
+        },
+        {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "port": 0
+        }
+    ]
+}

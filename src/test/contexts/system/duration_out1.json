@@ -1,0 +1,43 @@
+{
+    "tracks": [
+        {
+            "clips": [
+                {
+                    "asset": {
+                        "type": "image",
+                        "src": "https:\/\/shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com\/7q5g79h2g8\/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl\/source.png"
+                    },
+                    "start": 0,
+                    "length": 12
+                }
+            ]
+        },
+        {
+            "clips": [
+                {
+                    "start": 12,
+                    "elements": {
+                        "0": {
+                            "asset": {
+                                "type": "image",
+                                "src": "https:\/\/shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com\/7q5g79h2g8\/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl\/source.png"
+                            },
+                            "start": 12,
+                            "length": 12,
+                            "z": 10
+                        },
+                        "1": {
+                            "asset": {
+                                "type": "image",
+                                "src": "https:\/\/shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com\/7q5g79h2g8\/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl\/source.png"
+                            },
+                            "start": 24,
+                            "length": 12,
+                            "z": 10
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

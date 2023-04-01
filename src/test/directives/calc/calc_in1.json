@@ -1,0 +1,29 @@
+{
+    "frame": {
+        "width": 160,
+        "height": 90
+    },
+    "speed": 12,
+    "elements": [
+        {
+            "asset": {
+                "type": "image",
+                "src": "https://shotstack-ingest-api-stage-sources.s3.ap-southeast-2.amazonaws.com/7q5g79h2g8/zzyalkej-1u0v-i10b-o1zp-1kw1we3acjnl/source.png"
+            },
+            "transition": {
+                "in": "fade",
+                "out": "fade"
+            },
+            "fit": "crop",
+            "scale": "calc: 1/2",
+            "start": 1,
+            "length": "calc: {{scene.speed}}",
+            "z": 10,
+            "offset": {
+                "x": "calc: ({{scene.frame.width}}/160 + 0.16) / 2",
+                "y": "calc: ({{scene.frame.height}}/90 + 0.09) / 2"
+            },
+            "position": "center"
+        }
+    ]
+}
